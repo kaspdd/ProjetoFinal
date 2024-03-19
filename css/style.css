@@ -1,0 +1,127 @@
+
+/* #region global */
+
+/* font */
+*{
+    font-family: 'mukta vaani';
+}
+
+/* sizes */
+:root{
+    --super-hero:5rem;
+    --title-defaut:3rem;
+    --subtitle-defaut:2rem;
+    --table-title:1.8em;
+    --paragraph-defaut:1.5em;
+    --anchor-defaut:1.2em;
+}
+
+/* colors */
+:root{
+    --color-defaut: rgb(20, 39, 20);
+    --color-primary:rgb(93, 247, 93);
+    --color-segundary:rgb(234, 255, 234);
+    --color-tertiary:black;
+    --color-base:green;
+    --color-bg:rgba(0, 0, 0, 0.418);
+    --color-detail:rgb(20, 78, 20);
+    --color-table:rgb(42, 85, 42);
+    --color-text-box:rgba(36, 59, 36, 0.699);
+    --color-text-box-focus:rgba(255,255,255,1);
+    --color-bg-footer:rgba(4, 20, 4, 0.774);
+    --color-card:rgba(0,0,0,.5);
+    --color-btn:rgb(0, 180, 0);
+    --color-btn-hover:transparent;
+    --color-detail6:rgba(31, 141, 31, 0.199);
+}
+
+/* resources */
+:root{
+    font-size: 18px;
+    /* overflow:hidden server para trvar o scrool do mouse, ele nao funcionara */
+    overflow: hidden;
+    /* scroll-behavior serve para suavizar a transicao entre as sections */
+    scroll-behavior: smooth;
+    color: var(--color-segundary);
+}
+
+/* body */
+body{
+    font-size: 16px;
+    background-color: var(--color-defaut);
+}
+
+section{
+    width: 100%;
+    height: auto;
+}
+
+h1{
+    font-size: var(--title-defaut);
+}
+
+h2{
+    font-size: var(--subtitle-defaut);
+}
+
+p{
+    font-size: var(--paragraph-defaut);
+}
+
+
+a{
+    font-size: var(--anchor-defaut);
+    color: var(--color-segundary);
+    transition: .5s;
+}
+
+:hover{
+    transition: .5s;
+}
+
+/* #endregion */
+
+
+/* #region navbar */
+.navbar{
+    background-color: var(--color-) !important;
+}
+
+.navbarBrand{
+    color: var(--color-segundary) !important;
+    font-size: var(--table-title) !important;
+}
+
+.navLink {
+    color: var(--color-segundary) !important;
+    font-size: var(--anchor-defaut) !important;
+}
+
+
+
+/* #endregion */
+
+/*#region home*/
+
+/* Para chamar o ID usa-se '#' */
+#home{
+    background-image: url('../img/home.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.homeContainer{
+    height: 100vh;
+    line-height: 100vh;
+    width: 100%;
+    background-color: var(--color-bg);
+}
+.homeContainer h1{
+    font-size: var(--text-superhero);
+    color: var(--color-title);
+    
+}
+
+/*#endregion*/
+
+
